@@ -1,0 +1,21 @@
+name: Bug Report
+description: File a structured bug report for iOS
+body:
+  - type: markdown
+    attributes:
+      value: "## Welcome!"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug!     
+  - type: dropdown
+    id: ios-version
+    attributes:
+      label: iOS Version
+      description: Select the iOS version where the bug occurs.
+      options:
+        - iOS 19
+        - iOS 18
+        - iOS 17
+    validations:
+      required: true
